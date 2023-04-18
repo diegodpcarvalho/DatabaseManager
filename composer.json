@@ -1,0 +1,20 @@
+{
+    "name": "unimed/database-manager",
+    "description": "A simple library for managing database connections, results pagination and building queries in PHP.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Unimed",
+            "email": "ti@unimedcpv.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unimed\\DatabaseManager\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
