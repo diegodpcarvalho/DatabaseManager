@@ -12,7 +12,7 @@ To use this library just follow the examples below:
 
 require 'vendor/autoload.php';
 
-use WilliamCosta\DatabaseManager\Database;
+use Unimed\DatabaseManager\Database;
 
 //DATABASE CREDENTIALS
 $dbHost = 'localhost';
@@ -51,8 +51,8 @@ $success = $obDatabase->delete('id = 1');
 
 require 'vendor/autoload.php';
 
-use WilliamCosta\DatabaseManager\Database;
-use WilliamCosta\DatabaseManager\Pagination;
+use Unimed\DatabaseManager\Database;
+use Unimed\DatabaseManager\Pagination;
 
 //DATABASE CREDENTIALS
 $dbHost = 'localhost';
